@@ -28,7 +28,8 @@ body {
    min-height: 100vh;
    background-color: var(--eggshell);
    color: var(--wenge);
-   font-family: "Outfit-regular";
+   font-family: "Outfit";
+   font-weight: 400;
 }
 
 .recipe-container {
@@ -53,6 +54,11 @@ h1 {
 
 .preparation .prep-title {
    color: var(--raspberry);
-   font-family: "Outfit";
    font-weight: 700;
+   font-size: 1.1rem;
+}
+
+.preparation span {
+   font-weight: 700;
+   padding-left: 20px;
 }
